@@ -27,6 +27,7 @@ void Prefix::shift(char c)
 Chain::Chain(unsigned _prefixLen)
 {
 	prefixLen = _prefixLen;
+	score = 0;
 }
 
 void Chain::rebuild(vector<char> const &input)
